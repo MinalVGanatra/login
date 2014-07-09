@@ -13,7 +13,7 @@ class User
     {
      name(blank:false)
      address(maxSize:1000, nullable:true )
-     designation(blank:false)
+     designation(blank:true)
      email(nullable:false)
      date() 
     }
